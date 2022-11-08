@@ -48,7 +48,7 @@ pipeline:
                   primary:
                     spec:
                       connectorRef: docker_connector
-                      imagePath: library/ngnix
+                      imagePath: library/nginx
                       tag: <+input>
                     type: DockerRegistry
               type: Kubernetes
